@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CS416 Narrative Visualization Project: Jason Lundquist</title>
+    <link rel="stylesheet" href="styles/app.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="scripts/app.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+            integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-annotation/2.5.1/d3-annotation.min.js"
+            integrity="sha512-iBAeBWWWFb8HqSBcrqcz98iIpuVH1la39dEYHtyQ/pGpeCQTQVvLJOWAuhv2Q7JSHp9k7hWA7sGxU3hHJe+tFg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body onload='renderFirstChart()'>
+<div class="container">
+    <div id="slide-1">
+        <h2>An evaluation of productivity versus work hours around the world</h2>
+        <h4 class="mt-30">
+            The intent of this interactive slideshow is to highlight working hours versus income per year for a given country. The data contains factors such as labor productivity and GDP per capita growth over time.
+        </h4>
+        <ul>
+            <li class="font-size-lg mt-50">Work is a central part of our lives, something we do almost every day and for a large amount of time, over many decades. As work is so central to 
+                our lives looking closely at how much time we spend working can tell us a lot about the societies we live in. How much do people around the world work? 
+                In many countries today, people work much less than they did in the past 150 years. Working less means being able to spend time becoming more educated, 
+                or simply enjoying leisure time. This is substantial progress, however there are still considerable inequalities across the world.
+            </li>
+            <li class="font-size-lg mt-30">The differences between workers in poorer countries trends toward more work hours than those in wealthier countries. As an example in Cambodia the average worker, works approximately 2,456
+                hours each year, nearly 787 more hours than in the United Kingdom and 935 more hours than in Luxembourg.
+            </li>
+            <li class="font-size-lg mt-10">Consider that workers in wealthier countries tend to work fewer hours than workers in poorer countries; wealthier countries have economies that enable workers to produce more value for
+                each hour of work. This is usually because wealthier countries have economies that enable workers to produce more value for each hour of work. Higher productivity per hour provides workers with higher incomes and allows them
+                to work less hours.
+            </li>
+            <li class="font-size-lg mt-10">The data reveals indicators of economic progress over the last century, and the nature of inequality between countries.
+            </li>
+            <li class="font-size-lg mt-30">On the graph below, mouse over any country and you will see the total annual hours worked, along with their GDP per capita:
+                </span></li>
+        </ul>
+        <h3>Annual working hours vs. GDP per capita</h3>
+        <h5>The vertical axis shows the average hours worked per year by a resident of the country per year. The horizontal axis shows the GDP per capita</h5>
+        <div id="chart-1">
+        </div>
+    </div>
+    <div class="mt-30">
+        <em>Reference: https://ourworldindata.org/working-hours</em>
+    </div>
+    <p>
+        <a href="slideTwo.html">
+            <button>Next</button>
+        </a>
+    </p>
+</div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CS416 Narrative Visualization Project: Jason Lundquist</title>
+    <link rel="stylesheet" href="styles/app.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="scripts/app.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+            integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-annotation/2.5.1/d3-annotation.min.js"
+            integrity="sha512-iBAeBWWWFb8HqSBcrqcz98iIpuVH1la39dEYHtyQ/pGpeCQTQVvLJOWAuhv2Q7JSHp9k7hWA7sGxU3hHJe+tFg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body onload='renderFourthChart()'>
+<div class="container">
+    <div id="slide-4">
+        <h2>What can be infered from the data</h2>
+        <div>
+            <ul>
+                <li class="font-size-lg mt-10">Workers in poorer countries tend to work more hours on average than their counterparts in wealthier countries.
+                    This has had considerable implications on economic progress over the last century, and the nature of inequality between countries today.
+                    This equates to citizens of countries like Cambodia are not only financially poor but also leisure poor, as their economies have low productivity 
+                    and require longer hours. Longer hours worked decreases spare time to invest in improving their conditions through education. The data shows the
+                    difference in prosperity is not due to work ethic, but due to differences in circumstance and opportunity.
+                </li>
+                <li class="font-size-lg mt-30">Mouse over a country to see the total population, along with GDP per capita:
+                    </span></li>
+            </ul>
+            <p><em>Note: Some countries are black as data is unavailable.</em></p>
+        </div>
+        <svg id="chart-4" width="1000" height="640">
+        </svg>
+    </div>
+    <p>
+        <a href="slideThree.html">
+            <button>Previous</button>
+        </a>
+        <a href="index.html">
+            <button>Start Over</button>
+        </a>
+    </p>
+</div>
+</body>
+</html>

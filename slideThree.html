@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CS416 Narrative Visualization Project: Jason Lundquist</title>
+    <link rel="stylesheet" href="styles/app.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="scripts/app.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+            integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-annotation/2.5.1/d3-annotation.min.js"
+            integrity="sha512-iBAeBWWWFb8HqSBcrqcz98iIpuVH1la39dEYHtyQ/pGpeCQTQVvLJOWAuhv2Q7JSHp9k7hWA7sGxU3hHJe+tFg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+<div class="container">
+    <body onload='renderThirdChart()'>
+    <div id="slide-3">
+        <h2>Technological Innovation leads to productivity growth and higher income</h2>
+        <ul>
+            <li class="font-size-lg mt-10">Technological Innovation — defined broadly as physical machines as well as ideas, knowledge, and
+            processes, make it possible for a worker to become more productive. An increase in productivity raises incomes, and eventually ruduces working hours.
+            A good example of how tech innovation drives productivity growth can be found in agriculture. Innovations machinery automation, crop varieties, fertilizers, and land
+            management have enabled farmers to be much more productive. In the United States of America for example, farm production per labor hour increased nearly 16-fold from 1948 - 2011. 
+            This increased productivity enables the United States of America to feed the population, while the fraction of people working in agriculture decreases. Along with tech innovations,
+            there is evidence that working fewer hours can itself keep productivity higher, making the link between working hours and productivity self-reinforcing.
+            </li>
+            <li class="font-size-lg mt-30">Select a country from the dropdown list to see productivity over 1950 to 2017.
+            </li>
+        </ul>
+        <select id="select-country"></select>
+        <div id="chart-3">
+        </div>
+    </div>
+    <p>
+        <a href="slideTwo.html">
+            <button>Previous</button>
+        </a>
+        <a href="slideFour.html">
+            <button>Next</button>
+        </a>
+    </p>
+</div>
+</body>
+</html>
