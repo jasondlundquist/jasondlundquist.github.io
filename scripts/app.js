@@ -164,7 +164,7 @@ function renderThirdChartAnnotations(d, x, y, margin) {
     const annotations = [
         {
             note: {
-                label: "An average worker makes " + Math.round(d.productivity) + " $/hour",
+                label: "Average earnedper worker " + Math.round(d.productivity) + " $/hour",
                 lineType: "none",
                 bgPadding: {"top": 15, "left": 10, "right": 10, "bottom": 10},
                 title: d.entity,
